@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  border-top: thick solid black;
+}
+#container {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 75px;  
+}
+#red-strip {
+  height: 30px;
+  background: #990033;
+  width: 100%;
+  border-bottom: thin solid black;
+}
+#logo {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+footer{
+  min-width: 1000px;
+  position: relative;
+  clear: both;
+  height: 75px;
+  background: black;
+  margin-top: -75px;
+  border-top: thick solid #990033;
+}
