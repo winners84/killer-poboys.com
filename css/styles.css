@@ -45,10 +45,13 @@ p {
   font-weight: 300;
   font-style: italic;
   font-size: 22px;
-  line-height: 30px;
+}
+p.primary-text {
+  padding-bottom: 10px;
 }
 p.secondary-text {
   font-size: 18px;
+  line-height: 30px;
 }
 section#social-media {
   width: 200px;
