@@ -22,7 +22,7 @@ body {
 #red-strip {
   height: 30px;
   background: #990033;
-  width: 100%;
+  min-width: 100%;
   border-bottom: thin solid black;
 }
 #logo {
