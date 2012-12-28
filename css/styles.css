@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #990033;
+}
 html, body {
   height: 100%;
 }
@@ -22,27 +26,30 @@ body {
   border-bottom: thin solid black;
 }
 #logo {
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 320px;
   overflow: hidden;
   margin: 0 auto;
   padding-top: 50px;
 }
-p {
+section#tag-line {
   width: 640px;
-  margin: 50px auto;
+  margin: 25px auto 25px;
   padding: 10px 0;
   border-top: thin solid #990033;
   border-bottom: thin solid #990033;
   text-align: center;
+}
+p {
   font-family: "chaparral-pro", helvetica, arial, sans-serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 30px;
 }
-#social-media {
+section#social-media {
   width: 200px;
-  margin: 0 auto;
+  margin: 0 auto 25px;
   padding-left: 20px;
 }
 #social-media a:nth-of-type(2) {
