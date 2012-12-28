@@ -42,10 +42,10 @@ section#tag-line {
 }
 p {
   font-family: "chaparral-pro", helvetica, arial, sans-serif;
-  font-style: italic;
   font-size: 22px;
 }
 p.primary-text {
+  font-style: italic;
   font-weight: 500;
   padding-bottom: 10px;
 }
