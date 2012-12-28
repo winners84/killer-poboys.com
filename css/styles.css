@@ -34,22 +34,23 @@ body {
 }
 section#tag-line {
   width: 640px;
-  margin: 25px auto 25px;
-  padding: 10px 0;
+  margin: 25px auto;
+  padding: 25px 0;
   border-top: thin solid #990033;
-  border-bottom: thin solid #990033;
+  /*border-bottom: thin solid #990033;*/
   text-align: center;
 }
 p {
   font-family: "chaparral-pro", helvetica, arial, sans-serif;
-  font-weight: 300;
   font-style: italic;
   font-size: 22px;
 }
 p.primary-text {
+  font-weight: 500;
   padding-bottom: 10px;
 }
 p.secondary-text {
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
 }
